@@ -1,6 +1,6 @@
 # ZedThon - Zara
 # Copyright (C) 2022 ZedThon . All Rights Reserved
-#< https://t.me/ZThon >
+#< https://t.me/UI_XB >
 # This file is a part of < https://github.com/Zed-Thon/ZelZal/ >
 # PLease read the GNU Affero General Public License in
 # <https://www.github.com/Zed-Thon/ZelZal/blob/master/LICENSE/>.
@@ -84,9 +84,9 @@ async def startupmessage():
         if BOTLOG:
             Config.ZEDUBLOGO = await zedub.tgbot.send_file(
                 BOTLOG_CHATID,
-                "https://telegra.ph/file/f821d27af168206b472ad.mp4",
-                caption="**•⎆┊تـم بـدء تشغـيل سـورس زدثــون الخاص بك .. بنجاح 🧸♥️**",
-                buttons=[(Button.url("𝙕𝙏𝙝𝙤𝙣𓅛", "https://t.me/ZThon"),)],
+                "https://telegra.ph/file/29b1fbd85fe347fd9ceca.jpg",
+                caption="**•⎆┊تـم بـدء تشغـيل سـورس زد إي الخاص بك .. بنجاح 🧸♥️**",
+                buttons=[(Button.url("𝙕𝞝𓅛", "https://t.me/UI_XB"),)],
             )
     except Exception as e:
         LOGS.error(e)
@@ -118,7 +118,7 @@ async def startupmessage():
 
 
 async def mybot():
-    ZELZAL = bot.me.first_name
+    ZE = bot.me.first_name
     Malath = bot.uid
     zel_zal = f"[{ZELZAL}](tg://user?id={Malath})"
     f"ـ {zel_zal}"
@@ -134,7 +134,7 @@ async def mybot():
             await asyncio.sleep(1)
             await bot.send_message("@BotFather", botname)
             await asyncio.sleep(1)
-            await bot.send_message("@BotFather", "ZThon")
+            await bot.send_message("@BotFather", "ZE")
             await asyncio.sleep(3)
             await bot.send_message("@BotFather", "/setname")
             await asyncio.sleep(1)
@@ -152,13 +152,13 @@ async def mybot():
             await asyncio.sleep(1)
             await bot.send_message("@BotFather", botname)
             await asyncio.sleep(1)
-            await bot.send_message("@BotFather", f"- بـوت زدثــون المسـاعـد ♥️🦾 الخـاص بـ  {bot.me.first_name} ")
+            await bot.send_message("@BotFather", f"- بـوت زد إي المسـاعـد ♥️🦾 الخـاص بـ  {bot.me.first_name} ")
             await asyncio.sleep(3)
             await bot.send_message("@BotFather", "/setdescription")
             await asyncio.sleep(1)
             await bot.send_message("@BotFather", botname)
             await asyncio.sleep(1)
-            await bot.send_message("@BotFather", f"•⎆┊انـا البــوت المسـاعـد الخــاص بـ {zel_zal} \n•⎆┊بـواسطـتـي يمكـنك التواصــل مـع مـالكـي 🧸♥️\n•⎆┊قنـاة السـورس 🌐 @ZThon 🌐")
+            await bot.send_message("@BotFather", f"•⎆┊انـا البــوت المسـاعـد الخــاص بـ {zel_zal} \n•⎆┊بـواسطـتـي يمكـنك التواصــل مـع مـالكـي 🧸♥️\n•⎆┊قنـاة السـورس 🌐 @UI_XB 🌐")
         except Exception as e:
             print(e)
 
@@ -188,7 +188,7 @@ async def add_bot_to_logger_group(chat_id):
             LOGS.error(str(e))
 
 
-Zara = {"@ZThon", "@Zed_Thon", "@zzzvrr", "@zzzlvv"}
+Zara = {"@UI_XB", "@UI_XT", "@UI_OS", "@UI3I3"}
 async def saves():
    for Cat in Zara:
         try:
