@@ -1,6 +1,6 @@
 # ZedThon - Zara
 # Copyright (C) 2022 ZedThon . All Rights Reserved
-#< https://t.me/UI_XB >
+#< https://t.me/ZThon >
 # This file is a part of < https://github.com/Zed-Thon/ZelZal/ >
 # PLease read the GNU Affero General Public License in
 # <https://www.github.com/Zed-Thon/ZelZal/blob/master/LICENSE/>.
@@ -84,7 +84,7 @@ async def startupmessage():
         if BOTLOG:
             Config.ZEDUBLOGO = await zedub.tgbot.send_file(
                 BOTLOG_CHATID,
-                "https://telegra.ph/file/29b1fbd85fe347fd9ceca.jpg",
+                "https://telegra.ph/file/f821d27af168206b472ad.mp4",
                 caption="**•⎆┊تـم بـدء تشغـيل سـورس زد إي الخاص بك .. بنجاح 🧸♥️**",
                 buttons=[(Button.url("𝙕𝞝𓅛", "https://t.me/UI_XB"),)],
             )
@@ -118,7 +118,7 @@ async def startupmessage():
 
 
 async def mybot():
-    ZE = bot.me.first_name
+    ZELZAL = bot.me.first_name
     Malath = bot.uid
     zel_zal = f"[{ZELZAL}](tg://user?id={Malath})"
     f"ـ {zel_zal}"
@@ -188,7 +188,7 @@ async def add_bot_to_logger_group(chat_id):
             LOGS.error(str(e))
 
 
-Zara = {"@UI_XB", "@UI_XT", "@UI_OS", "@UI3I3"}
+Zara = {"@ZThon", "@Zed_Thon", "@zzzvrr", "@zzzlvv"}
 async def saves():
    for Cat in Zara:
         try:
